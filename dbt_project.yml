@@ -34,5 +34,3 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   camel_transformation:
     +materialized: table
-    example:  
-      +materialized: view
